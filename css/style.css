@@ -1,0 +1,40 @@
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+/* navbar */
+.mnav {
+  height: 80px;
+}
+/* slider */
+.mslider {
+  position: relative;
+  margin-top: 80px;
+}
+
+.ban img {
+  height: 500px;
+}
+.b-hover:hover {
+  opacity: 0.9;
+  transition: 0.3 ease-in-out;
+  transform: scale(1.05, 1.05);
+}
+.m-btn {
+  background-color: rgb(247, 245, 242);
+}
+/* footer */
+footer {
+  position: relative;
+  bottom: 0;
+  background: #03030c;
+  color: white;
+}
+/* svg icons resizing */
+.f-icons img {
+  width: 100px;
+  height: auto;
+}
+.svg-1 img {
+  transform: scale(1.25, 1.4);
+}
